@@ -1,7 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: arial;
 }
 ae{
   background: url(../img/Pics/O3.png);
@@ -9,16 +11,6 @@ ae{
   background-position: center;
   background-size: contain;
   background-attachment: fixed;
-}
-F {
-  background: url(../img/Pics/O1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
-  background-color: #000000;
-  font-family: sans-serif;
-  margin: 0 auto;
 }
 .content-all{
     width: 100%;
@@ -30,8 +22,8 @@ F {
 }
 
 .content-img{
-    width: 1180px;
-    height: 280px;
+    width: 500px;
+    height: 500px;
     margin: auto;
     margin-top: 100px;
     position: relative;
@@ -46,8 +38,8 @@ F {
 }
 
 .content-1{
-  width: 800px;
-  height: 1200px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -59,8 +51,8 @@ F {
 }
 
 .content-2{
-    width: 800px;
-    height: 1200px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -72,8 +64,8 @@ F {
 }
 
 .content-3{
-    width: 800px;
-    height: 1200px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -88,8 +80,8 @@ F {
 }
 
 .content-4{
-    width: 800px;
-    height: 1200px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -102,25 +94,25 @@ F {
 }
 
 .content-img:hover .content-1{
-    width: 150%;
+    width: 222%;
     -webkit-transition: all 900ms;
     transition: all 900ms;
 }
 
 .content-img:hover .content-2{
-    width: 150%;
+    width: 222%;
     -webkit-transition: all 300ms;
     transition: all 300ms;
 }
 
 .content-img:hover .content-3{
-    width: 150%;
+    width: 222%;
     -webkit-transition: all 500ms;
     transition: all 500ms;
 }
 
 .content-img:hover .content-4{
-    width: 150%;
+    width: 222%;
     -webkit-transition: all 700ms;
     transition: all 700ms;
 }
@@ -136,16 +128,16 @@ F {
 .content-txt{
     position: absolute;
     top: 0;
-    width: 270px;
-    padding: 5px;
+    width: 400px;
+    padding: 10px;
     z-index: 10;
     color: white;
-    text-align: justify;
-    margin-top: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 
 .content-txt h2{
-    font-size: 25px;
+    font-size: 30px;
     opacity: 0;
     -webkit-transform: scale(0.2);
     transform: scale(0.2);
@@ -154,8 +146,8 @@ F {
 }
 
 .content-txt p{
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 20px;
+    margin-top: 10px;
     opacity: 0;
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
@@ -186,8 +178,8 @@ F {
 justify-content: center;
 }
 
-body {
-  background: url(../img/Pics/O3.png);
+F {
+  background: url(../img/Pics/O1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -195,6 +187,22 @@ body {
   background-color: #000000;
   font-family: sans-serif;
   margin: 0 auto;
+}
+#contenido{
+  background: url(../img/Pics/O2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+body {
+  background-image: url(../img/Pics/F.png);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #000000;
+    font-family: sans-serif;
+    margin: 0 auto;
 }
 
 p {
